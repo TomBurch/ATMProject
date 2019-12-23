@@ -1,0 +1,41 @@
+#Layout {
+    /* -fx-grid-lines-visible: true; */
+    -fx-hgap: 5;
+    -fx-vgap: 5;
+    -fx-padding: 10;
+}
+
+#NumPad {
+    -fx-padding: 7px 0px 0px 16px;
+    -fx-pref-tile-width: 70px;
+    -fx-hgap: 3px;
+    -fx-vgap: 3px;
+}
+
+#NumpadButtons {
+    -fx-pref-width: 70px;
+}
+
+#ClearButton {
+    -fx-pref-width: 70px;
+    -fx-background-color: red;
+}
+
+#EnterButton {
+    -fx-pref-width: 70px;
+    -fx-background-color: green;
+}
+
+#Options {
+    -fx-orientation: vertical;
+    -fx-alignment: center;
+    -fx-vgap: 3px;
+}
+
+#OptionsButtons {
+    -fx-pref-width: 95px;
+}
+
+.button {
+    -fx-font: bold 16pt "courier new";
+}
